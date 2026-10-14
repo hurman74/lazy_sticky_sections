@@ -280,7 +280,10 @@ class RenderSliverStickySections extends RenderSliver with RenderSliverHelpers {
         break;
       }
     }
-    if (nextHeaderIndex == null) {
+    if (nextHeaderIndex == null &&
+        list.indexOf(list.lastChild!) == _sectionIndex.childCount - 1) {
+      // The list's scroll extent is only exact once its last child is laid
+      // out; before that it is an estimate.
       sectionEnd = listGeometry.scrollExtent;
     }
 
