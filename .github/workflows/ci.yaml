@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    # Weekly, to catch breakage from new Flutter releases.
+    - cron: "0 6 * * 1"
 
 jobs:
   check:
