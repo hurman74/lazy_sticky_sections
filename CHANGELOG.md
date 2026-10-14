@@ -1,3 +1,8 @@
+## 0.1.1
+
+- README: add an animated demo, a comparison with the usual workarounds (widgets built on the
+  first screen) and a sliver example image. No code changes.
+
 ## 0.1.0
 
 - Initial release.

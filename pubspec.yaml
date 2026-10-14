@@ -2,9 +2,17 @@ name: lazy_sticky_sections
 description: >-
   Grouped Flutter lists with sticky section headers, where both the sections
   and the items inside them build lazily. A sliver for very long sectioned lists.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/hurman74/lazy_sticky_sections
 issue_tracker: https://github.com/hurman74/lazy_sticky_sections/issues
+
+screenshots:
+  - description: Day headers pin and get pushed away while a chat history scrolls.
+    path: doc/demo.gif
+  - description: Widgets built on the first screen, compared with two common workarounds.
+    path: doc/comparison.png
+  - description: Letter headers pinning below a large app bar in a CustomScrollView.
+    path: doc/slivers.png
 
 topics:
   - sliver

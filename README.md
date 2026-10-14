@@ -11,6 +11,15 @@ away.
 Built for very long grouped lists: years of chat history with a header per day, a contact list
 with a header per letter, or a log with a header per hour.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hurman74/lazy_sticky_sections/main/doc/demo.gif" width="320" alt="A chat history scrolling by: each day's date header pins to the top until the next day's header pushes it away, and the app bar title follows the current day">
+</p>
+
+The cost of the usual workarounds, measured on the first screen of the same chat (10 years,
+one section per day):
+
+![Three phones showing the same chat. A sliver group per day builds 3,650 headers and 3,666 messages. A ListView of whole days builds 2 headers and 103 messages. LazyStickySectionsView builds 2 headers and 18 messages.](https://raw.githubusercontent.com/hurman74/lazy_sticky_sections/main/doc/comparison.png)
+
 ## Install
 
 ```sh
@@ -51,6 +60,8 @@ CustomScrollView(
 ```
 
 Headers pin just below the app bar, not behind it.
+
+![A contact list under a large app bar: at the top, and scrolled so the B header pushes the pinned A header away below the collapsed app bar](https://raw.githubusercontent.com/hurman74/lazy_sticky_sections/main/doc/slivers.png)
 
 ### A different look for the pinned header
 
