@@ -1,0 +1,27 @@
+name: lazy_sticky_sections
+description: >-
+  Grouped Flutter lists with sticky section headers, where both the sections
+  and the items inside them build lazily. A sliver for very long sectioned lists.
+version: 0.1.0
+repository: https://github.com/hurman74/lazy_sticky_sections
+issue_tracker: https://github.com/hurman74/lazy_sticky_sections/issues
+
+topics:
+  - sliver
+  - list
+  - sticky-header
+  - scroll
+  - widget
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
